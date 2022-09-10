@@ -1,5 +1,5 @@
 <template>
-  <h1>GMail Inbox</h1>
+  <h1 class="mt-12 my-6 text-center text-3xl font-bold underline">GMail Inbox</h1>
   <table class="mail-table">
     <tbody>
       <tr
@@ -98,15 +98,15 @@ export default {
 };
 </script>
 
-<style>
-#app {
+<style scoped>
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 
 /* Global Styles */
 
